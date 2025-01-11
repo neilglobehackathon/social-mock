@@ -7,18 +7,50 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="bg-gray-100 p-8">
-    <div class="comment-section bg-white rounded-lg shadow-md p-6 max-w-2xl mx-auto">
-      <h2 class="text-xl font-semibold text-center mb-4">Comments</h2>
-      
-      <!-- Comment input -->
-      <div class="mb-4">
-        <textarea id="new-comment" class="w-full p-3 border border-gray-300 rounded-md mb-2" placeholder="Add a comment..." rows="4"></textarea>
-        <button id="post-comment-btn" class="w-full bg-blue-500 text-white p-3 rounded-md hover:bg-blue-600">Post Comment</button>
-      </div>
+  <div class="comment-section">
+    <h2>Comments</h2>
 
-      <!-- Display comments -->
-      <div id="comments-container"></div>
+    <!-- Comment input -->
+    <div>
+      <textarea id="new-comment" placeholder="Add a comment..." rows="4"></textarea>
+      <button id="post-comment-btn">Post Comment</button>
+    </div>
+
+    <!-- Static Comments -->
+    <div class="comment">
+      <div class="comment-header">
+        John Doe <span class="comment-time">Jan 1, 2023, 10:00 AM</span>
+      </div>
+      <div class="comment-body">
+        This is a sample comment. It's great to see how HTML and CSS come together to create beautiful pages.
+      </div>
+    </div>
+
+    <div class="comment">
+      <div class="comment-header">
+        Jane Smith <span class="comment-time">Dec 31, 2022, 8:00 AM</span>
+      </div>
+      <div class="comment-body">
+        I totally agree! It's amazing how simple and powerful HTML and CSS are for web design.
+      </div>
+    </div>
+
+    <div class="comment">
+      <div class="comment-header">
+        Alice Johnson <span class="comment-time">Dec 28, 2022, 12:30 PM</span>
+      </div>
+      <div class="comment-body">
+        Great example! The layout and styling are clean and easy to follow.
+      </div>
+    </div>
+
+    <div class="comment">
+      <div class="comment-header">
+        Bob Brown <span class="comment-time">Dec 25, 2022, 5:45 PM</span>
+      </div>
+      <div class="comment-body">
+        Nice work! I would love to see more examples of how CSS can be used in creative ways.
+      </div>
     </div>
   </div>
 
