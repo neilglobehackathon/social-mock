@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comments Section</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-gray-100 p-8">
+    <div class="comment-section bg-white rounded-lg shadow-md p-6 max-w-2xl mx-auto">
+      <h2 class="text-xl font-semibold text-center mb-4">Comments</h2>
+      
+      <!-- Comment input -->
+      <div class="mb-4">
+        <textarea id="new-comment" class="w-full p-3 border border-gray-300 rounded-md mb-2" placeholder="Add a comment..." rows="4"></textarea>
+        <button id="post-comment-btn" class="w-full bg-blue-500 text-white p-3 rounded-md hover:bg-blue-600">Post Comment</button>
+      </div>
+
+      <!-- Display comments -->
+      <div id="comments-container"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
